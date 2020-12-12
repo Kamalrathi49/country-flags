@@ -1,0 +1,16 @@
+.Cards {
+  height: 20rem;
+  width: 18rem;
+  border: rgb(248, 211, 211) 2px solid;
+  border-radius: 30px;
+  flex-direction: column;
+  transition: all 1s;
+}
+
+.Cards:hover {
+  transition: all 1s;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_nGS9Cmnh3WkCZvjqgVKLrC9ZXiehrGPnLg&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
