@@ -2,7 +2,7 @@
   "name": "flags-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kamalrathi49.github.io/Country-Flags",
+  "homepage": "https://kamalrathi49.github.io/country-flags",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
