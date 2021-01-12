@@ -1,5 +1,6 @@
 import React from "react";
 import { CardList } from "./component/card-list/card.list.component";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 class App extends React.Component {
@@ -30,19 +31,21 @@ class App extends React.Component {
     console.log(filterCountry);
 
     return (
-      <div className="App">
-        <div className="header">
-          <h1 className="heading">Country Flags</h1>
-          <div className="searchbar">
-            <input
-              className="search"
-              type="search"
-              placeholder="search country"
-              onChange={(e) => this.setState({ search: e.target.value })}
-            />
+      <div className="container">
+        <div className="App">
+          <div className="header">
+            <h1 className="heading">Country Flags</h1>
+            <div className="searchbar">
+              <input
+                className="search"
+                type="search"
+                placeholder="search country"
+                onChange={(e) => this.setState({ search: e.target.value })}
+              />
+            </div>
           </div>
+          <CardList countrys={filterCountry} />
         </div>
-        <CardList countrys={filterCountry} />
       </div>
     );
   }

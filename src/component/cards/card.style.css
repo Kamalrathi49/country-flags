@@ -1,10 +1,11 @@
 .Cards {
   height: 20rem;
   width: 18rem;
-  border: rgb(248, 211, 211) 2px solid;
+  border: wheat 2px solid;
   border-radius: 30px;
   flex-direction: column;
   transition: all 1s;
+  margin-bottom: 20px;
 }
 
 .Cards:hover {
